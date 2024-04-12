@@ -1,0 +1,51 @@
+
+O QUE SÃO?
+permite o desvio de fluxo de controle, quando determinadas expressões lógicas são atendidas.
+
+
+//---------------------//
+* if / if-else - elif *
+
+saldo = 2000.0
+saque = float(input("informe o valor do saque: "))
+
+if saldo >= saque:
+    print("Realizando saque!")
+
+else:
+    print("saldo insuficiente!")
+
+
+
+
+opcao = int(input("informe uma opção: [1] Sacar \n[2] Extrato: "))
+
+if opcao == 1:
+    valor = float(input("Informe a quantia para o saque: "))
+
+elif  opcao == 2:
+    print("exibindo o extrato...")
+
+else:
+    sys.exit("opção invalida")
+
+
+//-----------------------//
+
+* if aninhado * 
+--> podemos criar estruturas condicionais aninhadas, para isso, basta adicionar estruturas if/elif/else dentro do bloco de codigio de estruturas
+if/elif/else
+
+
+
+
+
+
+
+
+
+
+
+//-----------------------//
+
+* if ternário * 

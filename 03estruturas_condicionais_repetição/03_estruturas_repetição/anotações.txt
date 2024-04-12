@@ -1,0 +1,12 @@
+For - While
+
+--> For
+
+texto = input("informe o texto: )
+VOGAIS = "AEIOU"
+
+for letra in texto: 
+    if letra.upper() in VAGAIS:
+        print(letra, end=" ")
+        
+print()
