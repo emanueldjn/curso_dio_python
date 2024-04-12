@@ -1,0 +1,40 @@
+* O que é versionamento de código? *
+
+- controlam versões de um arquivo ao longo do tempo. 
+- registra o histórico de atualização de um arquivo
+- gerencia quais foram as alterações, data, autor..
+- organização, controle e segurança. 
+
+--> centralizado: CVS, Subversion
+- um servidor central; 
+--> distribuido: Git, Mercurial
+- cada desenvolvedor tem uma cópia local dos dados.
+
+//--------------------------//
+
+* O que é Git? *
+
+- projeto de software livre criado em 2005 pelo programador Linus Torvalds.
+- é um sistema de gerenciamento de versão utilizando a técnica de "distribuição de hash".
+- permite trabalhar offline.
+- oferece suporte para vários usuários simultaneamente.
+- armazena informações sobre todos os arquivos alterados numa sessão de trabalho.
+
+* Fluxo Básico do Git *
+
+- git clone: clonar um repositorio Git existente para um novo diretorio(pasta) local.
+- git add: adicionar um novo arquivo.
+- git commit: grava alterações no repositório.
+- git pull: 'puxa' as alterações do repositorio remoto para o local(busca e mescla).
+- git push: 'empurra' as alterações do repositório local para o remoto.
+
+//--------------------------//
+
+* O que é Github? *
+
+- criado em 2008  por Chris Wanstrath, J. Hyett, Tom Preston-Werner e Scott Chacon.
+- 2018 vitima de ataque de DDoS (ataque distribuido de negação por serviço)  foi comprado pela Microsoft por 7,8 bilhoes
+- plataforma de hospedagem de código para controle de versão com Git e coloboração.
+- comunidade ativa;
+- utilizado mundialmente; 
+- mascote Octocat

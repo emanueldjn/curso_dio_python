@@ -1,0 +1,145 @@
+* Tipos de dados *
+
+--> definir caracteristicas e comportamentos de um valor(objeto) parao interpreador
+ex: 
+com esse tipo sou capaz de realizar opreaçãoes matemáticas. (consome 24bytes)
+
+//----------------------------------//
+
+* Tipos mais comuns *
+
+texto = str ("Olá") // cria um objeto do tipo texto, que é uma string
+
+numerico = int(10), float(1.5), complex 
+sequencia = list, tuple, range 
+ex: 1, 2, 3; ou A, B, C..
+
+mapa = dict
+ex: nome {emanuel}
+nome = mapa; chave = valor 
+
+coleção = set, fronzenset 
+ex: não deixa elemento remetido
+
+booleano = bool (true e false)
+binário = bytes, bytearray, memorywiew
+
+//----------------------------------//
+
+* Modo Interativo *
+
+executa em modo que possibilite o dev a escrever o código e ver o resultado na hora; 
+
+1 forma: chamando o interpretador (python) no terminal
+2 forma: executando o scipt com a flag -i (python -i app.py)
+
+//----------------------------------//
+
+Função DIR e função HELP
+
+--> sem argumentos, a função DIR retorna a lista de nomes no escopo local atual. com argumentos, retorna uma lista de aributos
+validos para o objeto
+ex: 
+dir() # escopo local
+dir(100) # todos os metodos da classe int
+
+--> o HELP invoca o sitema de ajuda integrado. é possivel fazer buscas em modo interativo ou informar por parâmetro qual o nome do módulo, função, classe,
+método ou variável. 
+ex: 
+help()
+help(100)
+
+//----------------------------------//
+
+* Boas Praticas * 
+
+- O padrao de nomes deve ser em snake case: total_da_compra 
+- Escolher nomes sugestivos  para as variaveis /funções
+- nome de constantes todo em maiusculo
+
+//----------------------------------//
+
+
+* Variveis e constantes * 
+
+--> Variveis 
+Não precisamos definir o tipo de dado da variavel. o Python faz isso automaticamente.
+por isso, não podemos criar uma varaivel sem atribuir um valor. Para alterar o valor da variavel, basta fazer uma atribuição de um novo valor.
+
+--> constantes
+utilizado para armazenar valores. Uma Constante nasce com um valor e permanece com ele ate o final da execução do programa, ou seja, é imutável.
+
+python não tem constantes;
+em python, usamos a convenção que diz ao programador que a variavel e uma constante. Para fazer isso, voce deve criar a variavel com o nome todo em letrar
+maiusculas
+
+//-------------------------------------// 
+
+* Conversão de tipos * 
+
+ex: variavel tipo string que armazenam numeros e precisamos fazer alguma operação matemática com esse valor
+
+--> int para float:
+
+preco = 10
+print(preco) # 10
+
+preco = float(preco)
+print(preco) # 10.0
+
+preco = 10 / 2 
+print(preco) # 5.0
+
+--> float para int
+
+preco = 10.30
+print(preco) # 10.3
+
+preco = int(preco)
+print(preco) # 10
+
+--> conversão por divisão para numero int
+print(preco // 2)  # 10 --> retorna apenas a parte inteira, sem considerar os decimais
+# ex: 7/2 = 3.5 --> 3 (aqui é a parte inteira)
+
+--> Numero para String
+
+preco = 10.50
+idade = 23
+
+print(str(preco))
+print(str(idade))
+
+texto = f"idade {idade} preco {preco}
+print(texto) # idade 28 preco 10.5
+
+--> String para número
+num_string = "10.50"
+print(int(num_string)) # 10
+print(float(num_string))  # 10.5
+
+//------------------------------------------//
+
+* Funções de entrada e saida *
+--> aprender como receber e exibir informações para o usuário. 
+
+
+--> input:
+quando queremos ler dados de entrada padrão(teclado). Recebe um argumento do tipo string que é exibido para o usuário na saída padrão(tela).
+a função lê a entrada, converte para string e retorna o valor. 
+
+ex: 
+nome = input("Informe o seu nome: ")
+
+--> função print
+quando queremos exibir dados na saida padrão(tela). recebe um argumento obrigatorio do tipo varargs de objetos e 4 argumentos opcionais
+(sep, end, file e flush). Todos os objetos são convertidos para string, separados por sep e terminados por end. A string final é exibida para o usuario.
+
+ex: 
+nome = "Emanuel"
+sobrenome = "Nascimento"
+
+print(nome, sobrenome)
+print(nome, sobrenome, end="...\n) (quebra de linha \n)
+print(nome, sobrenome, sep="#")
+Emanuel#Nascimento

@@ -1,0 +1,33 @@
+* Objetivo Geral * 
+criar nosso primeiro programa em python 
+
+Programar consiste em informar ao computador uma sequência de rotinas que devem ser preocessadas. 
+
+
+* Origem do Phyton *
+
+--> 1989 - Guido van Rossum, criador de Python.
+
+//---------------------------//
+
+* Objetivos *
+
+linguagem facil e intuitiva
+codigo aberto para todos contribuirem
+codigo em inglês
+adequado para tarefas diarias e produtivas
+
+//---------------------------//
+
+* Onde ultilizar Phyton * 
+
+- Análise de dados (Data Analysis)
+- Desenvolvimento Web (Web Development)
+- Sistemas Operacionais (Operating Systems)
+- Robótica (Robotics)
+- Ciência da Computação (Computational Science)
+
+Tipagem dinamica e forte - não precisa definir cada tipo de coisa
+multiplataforma e multiparadigma - linux mac, windows
+comunidade gigante e ativa - orientação a objetos ou procedural
+curva de aprenziado baixa

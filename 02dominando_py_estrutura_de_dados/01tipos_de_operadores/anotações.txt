@@ -1,0 +1,130 @@
+* OPERADORES ARITIMETICOS * 
+
+--> fazem operações matematicas
+
+//-------------------------//
+
+* ORDEM DE PROCEDENCIA * 
+--> na matematica existe uma regra que indica quais operações devem ser executadas primeiro. Isso é util pois ao analisar uma expressão
+a dependeer, da ordem das operações o valor pode ser diferente: 
+
+ex: 
+x = 10 - 5 * 2
+x é igual a 10 ou igual a 0?
+
+parenteses > expoêntes > multiplicação e divisão (esq para dir) > soma e subtração (esq para dir);
+
+ex: 
+
+//----------------------------//
+* OPERADOR DE ATRIBUIÇÃO * 
+
+--> atribuição simples           
+ex: 
+saldo = 500
+print(saldo) # 500
+
+--> com adição 
+saldo = 500
+saldo += 200
+print(saldo) # 700
+
+//----------------------------//
+* OPERADOR DE COMPARAÇÃO * 
+
+--> usado para comparar 2 valores
+
+ex: 
+saldo = 450
+saque = 200
+print(saldo == saque) # False
+print(saldo != saque) # True    DIFERENÇA
+print(saldo < saque)  # False   MENOR QUE
+print(saldo <= saque) # False   MENOR  OU IGUAL 
+print(saldo > saque)  # True    MAIOR QUE
+print(saldo >= saque) # True    MAIOU OU IGUAL
+
+//----------------------------//
+* OPERADOR DE LOGICO * 
+
+--> são operadores utilizados em conjunto com os operadores de comparação para montar uma expressao logica.
+quando um operador de comparaçao é utilizado, o  resultado retornado é um booleano, dessa forma podemos combinar operadores de comparação com os 
+operadores lógicos.
+
+ex 
+op_comparacao + op_logico + op_comparacao
+
+saldo = 1000
+saque = 200 
+limite = 100
+
+saldo >= saque # True
+saque <= limite # False
+
+--> OPERADOR "E": and
+saldo = 1000
+saque = 200 
+limite = 100
+
+saldo >= saque and saque <= limite # False
+
+--> OPERADOR "OU": or
+saldo >= saque or saque <= limite # True
+OBS: uma condição avaliada como True // para ser falso, todos tem que retornar False
+
+--> OPERADOR NEGAÇÃO "not":
+contatos_emergencia = [] ## lista(array) vazia em python é considerado False 
+
+not 1000 > 1500 # true 
+
+not contatos_emergencia #true 
+
+not "saque 1500" #False
+
+not "" # True
+
+--> PARETESES - serve para limitar a PROCEDENCIA
+saldo = 1000
+saque = 250 
+limite = 200
+conta_especial = True
+
+saldo >= saque and saque <= limite or conta_especial and saldo >= saque ## True
+(saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque) ## true
+
+//----------------------------//
+* OPERADOR DE IDENTIDADE * 
+
+--> são operadores utilizados para comparar se os dois objetos testados ocupam a mesma posição na memoria.
+ex: 
+curso = "Curso de Python"
+nome_do_curso = curso
+saldo, limite = 200, 200 
+
+curso is nome_do_curso
+## True
+
+curso is not nome_do_curso
+## False
+
+saldo is limite
+## True
+
+//----------------------------//
+* OPERADOR DE ASSOCIAÇÃO * 
+
+--> verificar se um obejto está presente em uma sequência
+ex 
+
+curso = "Curso Python"
+frutas = ["Laranja", "Uva", "Limão"]
+saques = [1500, 100]
+
+## saber se a str python esta presente na string curso
+"Python" in curso ## True
+
+## saber se a str maça esta presente na string frutas
+"Maçã" not in frutas ## True
+
+## saber se teve um saque de 200
+200 in saques  ## false

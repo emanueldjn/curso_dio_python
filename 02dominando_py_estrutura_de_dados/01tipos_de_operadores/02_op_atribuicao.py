@@ -1,0 +1,31 @@
+# atribuição simples
+saldo = 500
+print(saldo)
+
+saldo = 200
+print(saldo)
+
+saldo += 10
+print(saldo)
+
+saldo -= 5
+print(saldo)
+
+saldo //= 2 # float
+print(saldo)
+
+
+saldo /= 2  # int
+print(saldo)
+
+
+saldo *= 15
+print(saldo)
+
+saldo %= 4
+print(saldo)
+
+saldo **= 2
+print(saldo)
+
+
