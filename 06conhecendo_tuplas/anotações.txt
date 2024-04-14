@@ -1,0 +1,5 @@
+* criando tupla * 
+
+--> são estruturas de dados parecidas com as listas.
+as tuplas são imutaveis enquanto as listas sao mutaveis. Podemos criar tuplas através da classe: tuple
+ou colocando valores separados pode virgula de paretenses

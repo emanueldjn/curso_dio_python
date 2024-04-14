@@ -1,0 +1,33 @@
+Uma lista pode armazenar de maneira sequencial qualquer tipo de objeto. 
+
+podemos criar listas utilizando o construtor *list*, a função *range* ou colocando valores separados por virgula dentro de colchetes.
+Listas são objetos mutaveis, portanto, podemos alterar seus valores após a criação.
+
+//------------------------------//
+
+ACESSO DIRETO 
+podemos acessar seus dados utilizando índices. Contamos o índice de determidade sequencia a partir do zero.
+
+INDICE NEGATIVO 
+[-1]  é o último elemento da lista e [-2] é o penúltimo e assim por diante.
+
+//-----------------------------//
+
+LISTAS ANINHADAS
+
+podemos ter listas que armazenam outras listas. Com iss, podemos criar estruturas bidimensionais(tabelas), e acessar 
+informando os indicies de linha e coluna.
+
+//-----------------------------//
+FUNÇÂO ENUMERATE 
+
+as vezes é necessario saber qual o indice do objeto dentro do laço FOR; Para isso, podemos usar a função enumerate.
+
+
+//-----------------------------//
+COMPREENSÃO DE LISTAS - mais performatico 
+
+a COMPREENSÃO de lista oferece uma sintaxe mais curta e simples quando voce deseja: 
+criar uma nova lista com base nos valores de uma lista existente (filtro) ou gerar uma nova lista aplicando alguma
+modificação nos elementos de uma lista existente. 
+
