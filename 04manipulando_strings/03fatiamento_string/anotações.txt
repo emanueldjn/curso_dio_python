@@ -1,0 +1,2 @@
+Fatiamento é uma tecnica utilizada para retornar substrings (partes da string original)
+informando inicio(start), fim(stop) e passo(step): [start: stop[, step]]

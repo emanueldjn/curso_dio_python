@@ -1,0 +1,36 @@
+conhecer métodos uteis para manipular objetos do tipo string, como interpolar valores de variaveis e entender como funciona o fatiamento
+
+
+A classe string do python é famosa por ser rica em métodos e possuir uma interface facil de trabalhar;
+
+//-------------------------------------//
+
+Maiuscula, minuscula e titulo 
+
+curso = "pYthon"
+print(curso.upper()) #retorna a versão maiuscula da palavra # PYTHON
+
+print(curso.lower()) #retorna a versão minúscula da palavra # python
+
+print(curso.title()) #Retorna com as primeiras letras das palavras maiúsculas e as restantes minúsculas # Python
+
+//--------------------------------------//
+
+* Eliminando espaços em branco *
+
+curso = "           Python  "
+print(curso.strip())   #remove todos os espacos vazios do inicio e do fim da string #Python
+
+print(curso.lstrip())   #apenas remove o que esta no começo da string # Python  
+
+print(curso.rstrip())  #apenas remove o que está no final da string # Python
+
+//---------------------------------//
+
+* Junções e centraliação da String * 
+
+curso = "Python"
+
+print(curso.center(10, "#")) >>> "##Python##"
+
+print(".".join(curso)) >>> "P.y.t.h.o.n"

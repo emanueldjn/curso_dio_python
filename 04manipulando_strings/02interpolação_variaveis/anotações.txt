@@ -1,0 +1,23 @@
+3 formaças de manipular strings
+
+1 --> usando sinal % (não é mais recomendado)
+2 -->  usando função format()
+3 -->  usando f-string, que é a opção mais moderna e recomendada.
+
+//--------------------------------//
+
+
+
+//--------------------------------//
+
+Exercícios:
+
+A - Escreva um programa em    Python que leia uma frase do usuário e mostre quantas vezes aparece a palavra "Python" nessa fr
+1 - Escreva um programa em Python que leia o nome completo do usuário e mostre apenas os nomes dos usuários com mais de 5 caracteres.
+A - Escreva um programa em Python que utilize o método format() para concatenar as seguintes informações: "Olá, meu nome é ", seu nome comple
+A - Escreva um programa em Python que leia uma frase do usuário e mostre quantas vezes aparece o caractere "o" na frase digit
+A - Escreva um programa em Python que leia o nome completo do usuário e mostre apenas os nomes dos usuários sem sobrenomes. Ex
+A - Crie um programa em Python que utilize o método format() para concatenar as seguintes informações: "Meu nome é ", nome = "Fulano"
+A - Escreva um programa em Python que leia o nome completo do usuário e mostre uma mensagem de boas vindas com o nome completo. Util
+1 - Escreva um programa em Python que leia o nome completo do usuário e mostre uma mensagem de boas vindas com o nome do usuário
+A - Escreva um programa em Python que leia o nome completo do usuário e mostre uma mensagem de boas vindas com seu nome. 
