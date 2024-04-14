@@ -1,0 +1,9 @@
+* criando dicionarios * 
+Dicionario é um conjunto não ordenado de pares
+chave:valor, onde as chaves são unicas em uma dada instancia do dicionario. dicionarios são delimitados por chaves: {}
+e contem uma lista de pares chave:valor separada por virgulas.
+
+// ---------------------------------- //
+DICIONARIOS ANINHADOS 
+
+Podem armazenar qualquer tipo de objeto python como valor, desde que a chave para esse alor seja um objeto imutavel como (strings e numeros)
