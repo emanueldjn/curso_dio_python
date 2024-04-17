@@ -63,3 +63,12 @@ Com isso, podemos atribuir funções a variáveis, passalas como parâmetro para
 
 ex: String pode ser um objeto de primeira classe; pode passar como argumento; pode passar pra variavel; retorno de um metodo
 
+// ------------------------------- //
+
+Escopo local e Escopo global
+
+--> python trabalha com escopo local e global. Dentro do bloco da função é escopo local. portanto, alterações ali feitas em 
+objetos imutaveis serão perdidas quando o método terminar de ser executado. 
+
+Para usar objetos globais utilizams a palavra-chave 'global', que informa ao interpreador que a variavel que está sendo manipulada
+no escopo local é global. essa NÃO é uma boa pratica e deve ser evitada.
