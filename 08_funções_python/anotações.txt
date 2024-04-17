@@ -1,0 +1,65 @@
+O que é função? 
+
+--> bloco de código identificado por um nome e pode receber uma lista de parâmetros, esses parâmetros podem ou não ter valores padrões.
+usar funções pode tornar o código mais legivel e possibilida o reaproveitamento do codigo.
+programar baseado em função é o mesmo que dizer que estamos programado de maneira estruturada. (paradigma)
+
+Retornando valores
+
+--> Para retornar um valor, utilizamos a palavra 'return'. toda função python retorna 'none' por padrão.
+Diferente de outras linguagens, em python, uma função pode retornar mais de um valor.
+
+Argumentos Nomeados 
+
+--> Função também pode ser chamadas usando argumentos nomeados da forma chave=valor
+
+Args e Kwargs 
+
+--> Podemos combinar parâmetros obrigatorios com args e kwargs. Quando esse são definidos (*args e **kwargs),
+o método recebe os valores como tupla e dicionário respectivamente 
+
+# Tupla = valores separados por virgulas dentro de um ()
+
+*args 
+-->  1 asterisco faz representação de tupla
+Tupla = valores separados por virgulas dentro de um ()
+
+quando para o args e começa o kwargs?
+
+
+**kwargs
+estrutura chave=valor: {chave:valor}
+--> quando acabar valores seguidos por virgulas e começar mapeamento de chave=valor ele vai entender
+que agora tem que ler os kwargs
+
+
+*args e kwargs podem ser qualquer nome no argumento.*
+
+// ------------------------------ \\
+
+Parametros especiais
+
+--> por padrão, argumentos podem ser passados para uma função python tanto por posição quanto explicitamente pelo nome.
+Para uma melhor legibilidade e desempenho, faz sentido restringir a maneira pelo qual argumentos possam ser passados
+assim um desenvolvedor precisa apenas olhar para a definição para determinar se os itens são passados: 
+POR POCIÇÂO, POR POSIÇÂO E NOME OU POR NOME
+
+ex: 
+
+        positional only                 keyword only 
+def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
+                        positional or keyword
+
+--> tudo que esta ate a / é somente por posição 
+--> tudo depois do * palavra 
+
+
+// ----------------------------- // 
+
+Objetos de primeira classe 
+--> tudo é objeto. Dessa forma funções também são objetos. O que as tornam objetos de primeira classe.
+Com isso, podemos atribuir funções a variáveis, passalas como parâmetro para funções, usá-las como valores em estruturas de datos
+(listas, tuplas, dicionários, etc) e usar como valor de retorno para uma função (closures)
+
+ex: String pode ser um objeto de primeira classe; pode passar como argumento; pode passar pra variavel; retorno de um metodo
+

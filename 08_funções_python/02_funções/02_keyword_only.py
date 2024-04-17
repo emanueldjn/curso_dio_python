@@ -1,0 +1,13 @@
+# Exemplo keyword only - Somente por nome
+
+#  Podemos definir um parâmetro como "keyword-only" usando o atributo `*`
+# quer que todo mundo seja passado por nome
+
+def criar_carro(*, modelo, ano, placa, marca, motor, combustivel):
+    print(modelo, ano, placa, marca, motor, combustivel)
+
+# Valido
+criar_carro(modelo="Palio", ano=1999, placa="ABC-1234", marca="Fiat", motor="1.0", combustivel="Gasolina") # Valido
+
+# invalido
+criar_carro("Palio", 1999,"ABC-1234", marca="Fiat", motor="1.0", combustivel="Gasolina") # invalido
