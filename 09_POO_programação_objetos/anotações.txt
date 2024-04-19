@@ -1,0 +1,24 @@
+Paradigmas de programação 
+--> é um estilo de programação. É a forma como voce soluciona os problemas através do código.
+ex:
+problemas: beber agua 
+solução 1: usar um copo para beber agua.
+solução 2: usar uma garrafa para beber agua.
+
+Paradigmas:
+    Imperativo ou procedural
+    Funcional
+    Orientado a eventos
+
+Programação orientada a objetos:
+    O paradigma de POO estrutura o codigo abstraindo problemas em objetos do mundo real, facilitando o entendimento do código e tornando-0
+mais modular extensivel. Os dois conceitos chaves para aprender POO são: classes e objetos.
+
+// ------------------------------- //
+
+CLasses e Objetos 
+--> uma classe define as caracteristicas e comportamentos de um objeto, porém, não conseguimos usa-las diretamente. 
+Já objetos, podemos usa-los e eles possuem as caracterisicas e comportamentos que foram definidos nas classes. 
+
+
+--> Metodos são funções que estao dentro de uma classe
