@@ -1,0 +1,32 @@
+Herança em POO
+--> capacidade de uma classe filha derivar ou herdar as caracteristicas e comportamentos da classe pai(base)
+--> Benefio da herança:
+    reutilizar o codigo
+    
+ex: 
+class A:
+    pass
+
+class B(A):
+    pass
+
+
+// ------------------------- //
+Herança SIMPLES 
+--> quando classe filha herda apenas UMA classe pai
+
+
+
+// -------------------------- //
+Herança MULTIPLA 
+quando a classe filha herda de varias classes pai
+
+ex:
+class A:
+    pass
+
+class B:
+    pass
+
+class C(A, B):
+    pass
