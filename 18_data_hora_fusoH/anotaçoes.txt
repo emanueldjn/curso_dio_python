@@ -1,0 +1,16 @@
+--> Dominando o modulo 'datetime' para manipulações precisas
+
+--> introdução ao modulo datetime: 
+    possui classes uteis como date, time e timedelta
+
+ex:
+import datetime
+
+d = datetime.date(2024, 4, 19)
+print(d)
+
+
+// ----------------------- //
+
+--> Converter data e hora 
+usamos os metodos 'strtime' (string format time) e 'strptime(string parse time)
